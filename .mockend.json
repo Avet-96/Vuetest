@@ -1,13 +1,21 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+//  "Post": {
+//    "title": "string",
+//    "views": "int",
+//    "published": "boolean",
+//    "createdAt": "date",
+//    "comments": "Comment[]"
+//  },
+//  "Comment": {
+//    "body": "string",
+//    "post": "Post"
+//  },
+  "User": {
+    "name": "string",
+    "created_at": "date",
+    "messages": "Message[]"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Message": {
+    "text": "string"
   }
 }
