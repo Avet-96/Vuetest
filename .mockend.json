@@ -5,6 +5,7 @@
     "messages": "Message[]"
   },
   "Message": {
-    "text": "string"
+    "text": "string",
+    "user": "User"
   }
 }
