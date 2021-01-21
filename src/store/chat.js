@@ -12,9 +12,9 @@ export default {
         },
         async getComments({commit}) {
             try {
-                let data = await CatApi.getComments()
-                console.log(data, 123)
-                commit('commentLists', data.data)
+                // let data = await CatApi.getComments()
+                // console.log(data, 123)
+                // commit('commentLists', data.data)
             } catch (e) {
                 throw e
             }
